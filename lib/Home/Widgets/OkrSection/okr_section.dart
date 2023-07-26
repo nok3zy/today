@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:today/Home/OkrSection/okr_item.dart';
+
+import 'okr_item.dart';
 
 class OkrSection extends StatelessWidget {
   final List<String> _items = [
