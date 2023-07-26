@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:today/Home/Widgets/ColoredBox/colored_box.dart';
-import 'package:today/Home/Widgets/RotatedBox/rotated_box.dart';
 import 'package:today/Home/widget_button.dart';
+import 'package:today/Home/widget_spinCircle.dart';
+import 'package:today/Home/widget_spinSquare.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -14,6 +15,14 @@ class HomeScreen extends StatelessWidget {
           WidgetButton(
             title: "Color Toggle Box",
             widget: ColorToggleBox(),
+          ),
+          WidgetButton(
+            title: "Spinned Circle",
+            widget: SpinCircle(),
+          ),
+          WidgetButton(
+            title: "Spinned Square",
+            widget: SpinSquare(),
           ),
         ]),
       ),
