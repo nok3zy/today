@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:math' show pi;
 
-import 'package:today/Home/Widgets/widget_elliptical.dart';
+import 'package:today/Home/widget_elliptical.dart';
 
 class SpinCircle extends StatefulWidget {
   const SpinCircle({super.key});
