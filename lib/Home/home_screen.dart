@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:today/Home/Widgets/ColoredBox/colored_box.dart';
-import 'package:today/Home/widget_button.dart';
-import 'package:today/Home/widget_spinCircle.dart';
-import 'package:today/Home/widget_spinSquare.dart';
+import 'package:today/Home/Widgets/widget_colorBox.dart';
+import 'package:today/Home/Widgets/widget_spinSquare.dart';
+
+import 'Widgets/widget_button.dart';
+import 'Widgets/widget_spinCircle.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
